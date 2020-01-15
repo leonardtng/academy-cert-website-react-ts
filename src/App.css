@@ -13,14 +13,14 @@ header {
 }
 
 .block {
-  height: 464.20px; 
-  margin-top: calc(50vh - 232.10px);
+  margin: 100px 0px;
   padding: 30px;
   border: 5px solid black;
   background-color: white;
 }
 
 .bg-image {
-  background-image: url('./boogle-background.png');
+  background-size: cover;
+  background-image: url('./images/boogle-background.png');
   background-color: darkslategray;
 }

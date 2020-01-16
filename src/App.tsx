@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './images/logo.34f82a1a.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LoginBlank from './components/LoginBlank'
+import LoginComponent from './components/LoginComponent'
 
 const Header: React.FC = () => {
   return (
@@ -21,8 +21,8 @@ const Form: React.FC = () => {
   return(
     <div>
       <div>
-        <LoginBlank info = "Username" />
-        <LoginBlank info = "Password" />
+        <LoginComponent info="Username" />
+        <LoginComponent info="Password" />
         <div className='incorrect'>blank</div>
       </div>
       <div className="text-center">

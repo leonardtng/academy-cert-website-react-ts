@@ -4,7 +4,7 @@ interface LoginInfo {
     info: string
 }
 
-export const LoginBlank:React.FC<LoginInfo> = ({info}) => {
+export const LoginComponent:React.FC<LoginInfo> = ({info}) => {
     return (
         <div>
             <div className="form-group">
@@ -15,4 +15,4 @@ export const LoginBlank:React.FC<LoginInfo> = ({info}) => {
     )
 }
 
-export default LoginBlank
+export default LoginComponent
